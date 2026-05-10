@@ -89,20 +89,20 @@ async def process_roll(update_or_query, data_list):
         
         # এখানে তিনটি রোল/রেজিস্ট্রেশন আলাদা লাইনে দেখানো হয়েছে
         final_text += (
-            f"📄 Result {i}\n"
+            f"🎯 Result {i}\n"
             f"<pre>\n"
-            f"Transaction ID: {data['Transaction ID']}\n"
-            f"College       : {data['College']}\n"
-            f"Group         : {data['Group']}\n"
-            f"SSC Roll      : {data['SSC Roll']}\n"
-            f"Class Roll    : {data['Class Roll']}\n"
-            f"Reg. No       : {data['Reg. No']}\n"
-            f"Name          : {data['Name']}\n"
-            f"Mobile        : {data['Mobile']}\n"
-            f"Year          : {data['Year']}\n"
-            f"Session       : {data['Session']}\n"
-            f"Amount(BDT)   : {data['Amount(BDT)']}\n"
-            f"Date          : {data['Date']}\n"
+            f"🆔 Transaction ID: {data['Transaction ID']}\n"
+            f"🏫 College       : {data['College']}\n"
+            f"🔬 Group         : {data['Group']}\n"
+            f"🔢 SSC Roll      : {data['SSC Roll']}\n"
+            f"📇 Class Roll    : {data['Class Roll']}\n"
+            f"🪪 Reg. No       : {data['Reg. No']}\n"
+            f"👤 Name          : {data['Name']}\n"
+            f"📳 Mobile        : {data['Mobile']}\n"
+            f"📆 Year          : {data['Year']}\n"
+            f"​​📅 Session       : {data['Session']}\n"
+            f"💰 Amount(BDT)   : {data['Amount(BDT)']}\n"
+            f"🗓️ Date          : {data['Date']}\n"
             f"</pre>\n\n"
         )
         
